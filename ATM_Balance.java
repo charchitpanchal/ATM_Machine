@@ -72,7 +72,7 @@ public class ATM_Balance {
         Scanner sc = new Scanner(System.in);
         float depoist = sc.nextFloat();
         balance+=depoist;
-        System.out.println("Balance after the depost is: "+depoist);
+        System.out.println("Balance after the depost is: "+balance);
         menu();
     }
 
